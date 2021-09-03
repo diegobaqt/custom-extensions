@@ -1,11 +1,5 @@
 library custom_extensions;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
-
-extension BoolExt on bool {
-  void toggle() => !this;
+class BoolExt {
+  void toggle(bool value) => !value;
 }
