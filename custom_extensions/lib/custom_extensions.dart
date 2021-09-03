@@ -1,5 +1,5 @@
 library custom_extensions;
 
-class BoolExt {
-  void toggle(bool value) => !value;
+extension BoolExt on bool {
+  void toggle() => !this;
 }
