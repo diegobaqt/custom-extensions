@@ -16,6 +16,24 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^1.0.0
 
+  # Networkig
+  dio: ^4.0.0
+  dio_cache_interceptor: ^3.0.1
+  dio_cache_interceptor_hive_store: ^3.0.1
+
+  # state management|dependency injection|route management
+  get: ^4.3.8
+  get_storage: ^2.0.3
+
+  g_json: ^4.0.0
+  intl: ^0.17.0
+  lifecycle: ^0.2.0
+  package_info_plus: ^1.0.6
+  sprintf: ^6.0.0
+  
+  
+
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
